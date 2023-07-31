@@ -1,0 +1,30 @@
+name: Run Python Script on Commit
+
+on:
+  push:
+    branches:
+      - main  # Replace "main" with the branch name you want to trigger the action on
+
+jobs:
+  run_script:
+    name: Run Python Script
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3  # Replace with your desired Python version
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt  # If you have any requirements for your script
+
+      - name: Run Python script with secrets
+        env:
+          CLIENT_ID: ${{ secrets.reddit_client_id }} 
+          CLIENT_SECRET: ${{ secrets.reddit_client_secret }} 
+          USER_AGENT: ${{ secrets.user_agent }}
+        run: python Reddit_Scraper.py $CLIENT_ID $CLIENT_SECRET $USER_AGENT

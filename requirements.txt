@@ -1,4 +1,3 @@
 praw
 fire
-os
 pandas

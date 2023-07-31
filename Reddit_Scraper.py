@@ -1,3 +1,18 @@
+########################################
+#   CREATING DICTIONARY TO STORE THE DATA WHICH WILL BE CONVERTED TO A DATAFRAME
+########################################
+
+#   NOTE: ALL THE POST DATA WILL BE SAVED IN A DIFFERENT
+
+# SCRAPING CAN BE DONE VIA VARIOUS STRATEGIES {HOT,TOP,etc} we will go with keyword strategy i.e using search a keyword
+######################################## 
+#    Use 
+#    pip install fire
+#    pip install praw
+#    python Reddit_Scraper.py --query [list of queries] -output_dir "path to output directory"
+    
+########################################
+
 import fire
 import os
 import praw

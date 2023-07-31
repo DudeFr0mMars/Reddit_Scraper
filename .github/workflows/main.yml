@@ -25,6 +25,6 @@ jobs:
       - name: Run Python script with secrets
         env:
           reddit_client_id: ${{ secrets.REDDIT_CLIENT_ID }} 
-          reddit_client_secret: ${{ secrets.REDDDIT_CLIENT_SECRET }} 
+          reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: python Reddit_Scraper.py $reddit_client_id $reddit_client_secret $user_agent

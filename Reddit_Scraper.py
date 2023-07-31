@@ -1,3 +1,4 @@
+import fire
 import os
 import praw
 import pandas as pd
@@ -47,4 +48,7 @@ def reddit_scraper(query : list,output_dir : str):
             df = pd.concat([df,post_data],axis=0,ignore_index=True)
     df.to_csv(os.path.join(output_dir,"subreddit.csv"))
     return
+
+if __name__ == "__main__":
+  fire.Fire(reddit_scraper)
 

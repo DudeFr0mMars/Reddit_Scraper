@@ -45,6 +45,6 @@ def reddit_scraper(query : list,output_dir : str):
 
             post_data = pd.DataFrame(post_dict)
             df = pd.concat([df,post_data],axis=0,ignore_index=True)
-    df.to_csv(os.path.join(output_dir,"subreddit.csv")
+    df.to_csv(os.path.join(output_dir,"subreddit.csv"))
     return
 

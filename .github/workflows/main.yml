@@ -3,7 +3,7 @@ name: Run Python Script on Commit
 on:
   push:
     branches:
-      - main  # Replace "main" with the branch name you want to trigger the action on
+      - Master  # Replace "main" with the branch name you want to trigger the action on
 
 jobs:
   run_script:

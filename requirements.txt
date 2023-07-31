@@ -1,2 +1,4 @@
 praw
 fire
+os
+pandas

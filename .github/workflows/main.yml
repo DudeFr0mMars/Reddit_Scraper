@@ -27,4 +27,6 @@ jobs:
           reddit_client_id: ${{ secrets.REDDIT_CLIENT_ID }} 
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
-        run: python Reddit_Scraper.py --query ["OpenAI"]--output_dir "" $reddit_client_id $reddit_client_secret $user_agent 
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+        run: python Reddit_Scraper.py --query ["OpenAI"] --output_dir "" $reddit_client_id $reddit_client_secret $user_agent $username $password  

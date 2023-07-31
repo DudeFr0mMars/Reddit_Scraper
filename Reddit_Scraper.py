@@ -2,7 +2,7 @@ import os
 import praw
 import pandas as pd
 
-def reddit_scraper(query : list):
+def reddit_scraper(query : list,output_dir : str):
 
     client_id = os.environ.get("reddit_client_id")
     client_secret = os.environ.get("reddit_client_secret")
@@ -45,6 +45,6 @@ def reddit_scraper(query : list):
 
             post_data = pd.DataFrame(post_dict)
             df = pd.concat([df,post_data],axis=0,ignore_index=True)
-    df.to_csv("subreddit.csv")
+    df.to_csv(os.path.join(output_dir,"subreddit.csv")
     return
 

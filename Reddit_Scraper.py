@@ -23,7 +23,7 @@ def reddit_scraper(query : list,output_dir : str):
     client_id = os.environ.get("reddit_client_id")
     client_secret = os.environ.get("reddit_client_secret")
     user_agent = os.environ.get("user_agent")
-    user_name = os.environ.get("username")
+    username = os.environ.get("username")
     password = os.environ.get("password")
     reddit = praw.Reddit(client_id = client_id,#my client id
                      client_secret = client_secret,  #your client secret

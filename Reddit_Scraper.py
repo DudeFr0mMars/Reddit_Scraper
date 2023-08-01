@@ -1,4 +1,7 @@
-import fire, os, praw, pandas as pd
+import fire
+import os
+import praw
+import pandas as pd
 from datetime import date
 
 def run(query:str, dirout:str, subreddits=None, limit : int=10, sort:str='top'):
@@ -47,7 +50,7 @@ def run(query:str, dirout:str, subreddits=None, limit : int=10, sort:str='top'):
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
     filename = ymd + "-fetch.csv"
     path = os.path.join(dirout,filename)
-    df.to_csv(path)
+    dfall.to_csv(path)
     return
 
 if __name__ == "__main__":

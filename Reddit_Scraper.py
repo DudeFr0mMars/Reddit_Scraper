@@ -5,10 +5,10 @@ import pandas as pd
 from datetime import date
 
 def run(query: list, dirout: str, subreddits=None):
-    ### from https://www.reddit.com/prefs/apps/
-    client_id = os.environ.get("reddit_client_id")
-    client_secret = os.environ.get("reddit_client_secret")
-    user_agent = os.environ.get("user_agent")
+
+    client_id     = "KqVbVrlmGdbowtjuNIMAmQ" 
+    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g" 
+    user_agent    = "DailyNews"  ### Same from Secret page
     reddit = praw.Reddit(
         client_id=client_id,  # my client id
         client_secret=client_secret,  # your client secret

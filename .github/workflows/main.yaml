@@ -14,9 +14,9 @@ on:
      - Master
 
 
-  #schedule:
+  schedule:
     #- cron:  '0 0 * * 0'      #### 60mins
-    #- cron:  '0 10 * * *'  ##10:00 UTC everyday
+    - cron:  '30 6 2 * *'  ## 0630 UST on 2nd of every month
     #   - cron:  '* * */2 * *'
 
 concurrency:

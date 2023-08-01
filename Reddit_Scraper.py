@@ -13,60 +13,80 @@
     
 ########################################
 
-import fire
-import os
-import praw
-import pandas as pd
+"""
 
-def reddit_scraper(query : list,output_dir : str):
+Fetch secret from here:
+https://www.reddit.com/prefs/apps/
 
-    client_id = os.environ.get("reddit_client_id")
-    client_secret = os.environ.get("reddit_client_secret")
-    user_agent = os.environ.get("user_agent")
-    username = os.environ.get("username")
-    password = os.environ.get("password")
+
+pip install praw fire utilmy
+
+
+export reddit_client='i05gtu1-NrbJqCxHFHxW3g'
+export reddit_client_secret='Ak1qkvZdqnAfCCSK7rq9HcyBuaWoTQ'
+export reddit_ua='Bot'
+export reddit_subreddit='MachineLearning,OpenAI,ChatGPT,OpenAIDev,learnmachinelearning'
+
+
+cd utilmy/webscrapper/
+
+python cli_redditnews.py run --query 'icml 2023, neurips 2023'  --dirout ztnp/reddit/
+
+
+
+"""
+import fire, os, praw, pandas as pd
+from utilmy import (date_now, pd_to_file, os_makedirs, log)
+
+
+def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
+
+    ### from https://www.reddit.com/prefs/apps/
+    client_id     = "KqVbVrlmGdbowtjuNIMAmQ" 
+    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g" 
+    user_agent    = "DailyNews"  ### Same from Secret page
     reddit = praw.Reddit(client_id = client_id,#my client id
                      client_secret = client_secret,  #your client secret
-                     user_agent = user_agent, #user agent name
-                     username = username,     # your reddit username
-                     password = password)     # your reddit password
+                     user_agent    = user_agent #user agent name
+                     )
+    log(reddit.read_only)
+    if verbose > 1 :
+        log(client_id, client_secret, user_agent)
 
-    sub = ['AskReddit'] 
-    df = pd.DataFrame(columns=["title",
-            "score" ,
-            "id" ,
-            "url" ,
-            "comms_num",
-            "created" ,
-            "body"]) 
-    for s in sub:
+    if subreddits is None :
+        subreddits = ['MachineLearning','OpenAI','ChatGPT','OpenAIDev','learnmachinelearning']
+        
+    if isinstance(query, str):
+        query = query.split(",")
+
+    ymd = date_now(fmt='%Y%m%d', returnval='str')    
+
+    log("########## Start Scrapping")
+    dfall = pd.DataFrame() 
+    for s in subreddits:
         subreddit = reddit.subreddit(s) 
+        log('fetching:', s)
 
         for item in query:
-            post_dict = {
-            "title" : [],
-            "score" : [],
-            "id" : [],
-            "url" : [],
-            "comms_num": [],
-            "created" : [],
-            "body" : []
+            ddict = {
+            "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "created" : [], "body" : []
             }
             
-            for submission in subreddit.search(query,sort = "top",limit = 10):
-                post_dict["title"].append(submission.title)
-                post_dict["score"].append(submission.score)
-                post_dict["id"].append(submission.id)
-                post_dict["url"].append(submission.url)
-                post_dict["comms_num"].append(submission.num_comments)
-                post_dict["created"].append(submission.created)
-                post_dict["body"].append(submission.selftext)
+            for submi in subreddit.search(query,sort = reddit_sort,limit = reddit_limit):
+                ddict["title"].append(submi.title)
+                ddict["score"].append(submi.score)
+                ddict["id"].append(submi.id)
+                ddict["url"].append(submi.url)
+                ddict["comms_num"].append(submi.num_comments)
+                ddict["created"].append(submi.created)
+                ddict["body"].append(submi.selftext)
 
-            post_data = pd.DataFrame(post_dict)
-            df = pd.concat([df,post_data],axis=0,ignore_index=True)
-    df.to_csv(os.path.join(output_dir,"subreddit.csv"))
+            dfres = pd.DataFrame(ddict)
+            log( f'{item}: N article: ', len(dfres))
+            dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
+
+    pd_to_file(dfall, dirout + f"/subreddit_{ymd}.csv", sep="\t")
     return
 
 if __name__ == "__main__":
-  fire.Fire(reddit_scraper)
-
+  fire.Fire(run)

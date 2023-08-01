@@ -42,7 +42,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-              pip install fire pandas utilmy praw
+              pip install fire pandas praw
 
 
       - name: Run Python script with secrets
@@ -51,7 +51,7 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python Reddit_Scraper.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --dirout "output" 
+              python Reddit_Scraper.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --dirout "output" $reddit_client_id $reddit_client_secret $user_agent
 
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4

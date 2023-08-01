@@ -25,7 +25,7 @@ def run(query: list, dirout: str, subreddits=None):
         ]
 
     ymd = date.today()    
-    ymd = ymd.strftime("%d/%m/%Y")
+    ymd = ymd.strftime("%d-%m-%Y")
     
     print("########## Start Scraping")
     

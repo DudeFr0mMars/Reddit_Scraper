@@ -4,19 +4,25 @@ import praw
 import pandas as pd
 from datetime import date
 
-def run(query:str, dirout:str, subreddits=None, limit : int=10, sort:str='top'):
-
++def run(query: str, dirout: str, subreddits=None, limit: int = 10, sort: str = "hot"):
     ### from https://www.reddit.com/prefs/apps/
-    client_id     = os.environ.get('reddit_client_id') 
-    client_secret = os.environ.get('reddit_client_secret')  
-    user_agent    = os.environ.get('user_agent')
-    reddit = praw.Reddit(client_id = client_id,#my client id
-                     client_secret = client_secret,  #your client secret
-                     user_agent    = user_agent #user agent name
-                     )
+    client_id = os.environ.get("reddit_client_id")
+    client_secret = os.environ.get("reddit_client_secret")
+    user_agent = os.environ.get("user_agent")
+    reddit = praw.Reddit(
+        client_id=client_id,  # my client id
+        client_secret=client_secret,  # your client secret
+        user_agent=user_agent,  # user agent name
+    )
 
-    if subreddits is None :
-        subreddits = ['MachineLearning','OpenAI','ChatGPT','OpenAIDev','learnmachinelearning']
+    if subreddits is None:
+        subreddits = [
+            "MachineLearning",
+            "OpenAI",
+            "ChatGPT",
+            "OpenAIDev",
+            "learnmachinelearning",
+        ]
         
     if isinstance(query, str):
         query = query.split(",")
@@ -24,19 +30,25 @@ def run(query:str, dirout:str, subreddits=None, limit : int=10, sort:str='top'):
     ymd = date.today()    
     ymd = ymd.strftime("%d/%m/%Y")
     
-    print("########## Start Scrapping")
+    print("########## Start Scraping")
     
     dfall = pd.DataFrame() 
     for s in subreddits:
         subreddit = reddit.subreddit(s) 
-        print('fetching:', s)
+        print("fetching:", s)
 
         for item in query:
             ddict = {
-            "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "created" : [], "body" : []
-            }
+                "title": [],
+                "score": [],
+                "id": [],
+                "url": [],
+                "comms_num": [],
+                "created": [],
+                "body": [],
+             }
             
-            for submi in subreddit.search(query,sort = sort,limit = limit):
+            for submi in subreddit.search(query, sort=sort, limit=limit):
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)

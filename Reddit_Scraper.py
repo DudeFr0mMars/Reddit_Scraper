@@ -4,7 +4,7 @@ import praw
 import pandas as pd
 from datetime import date
 
-+def run(query: str, dirout: str, subreddits=None, limit: int = 10, sort: str = "hot"):
+def run(query: list, dirout: str, subreddits=None):
     ### from https://www.reddit.com/prefs/apps/
     client_id = os.environ.get("reddit_client_id")
     client_secret = os.environ.get("reddit_client_secret")
@@ -23,12 +23,9 @@ from datetime import date
             "OpenAIDev",
             "learnmachinelearning",
         ]
-        
-    if isinstance(query, str):
-        query = query.split(",")
 
-    ymd = date.today()    
-    ymd = ymd.strftime("%d/%m/%Y")
+    #ymd = date.today()    
+    #ymd = ymd.strftime("%d/%m/%Y")
     
     print("########## Start Scraping")
     
@@ -48,7 +45,7 @@ from datetime import date
                 "body": [],
              }
             
-            for submi in subreddit.search(query, sort=sort, limit=limit):
+            for submi in subreddit.search(query, sort="hot", limit=10):
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)
@@ -60,7 +57,7 @@ from datetime import date
             dfres = pd.DataFrame(ddict)
             print( f'{item}: N article: ', len(dfres))
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
-    filename = ymd + "-fetch.csv"
+    filename = "fetch.csv"
     path = os.path.join(dirout,filename)
     dfall.to_csv(path)
     return

@@ -31,7 +31,7 @@ def reddit_scraper(query : list,output_dir : str):
                      username = username,     # your reddit username
                      password = password)     # your reddit password
 
-    sub = ['MachineLearning','OpenAI','ChatGPT','OpenAIDev','learnmachinelearning'] 
+    sub = ['AskReddit'] 
     df = pd.DataFrame(columns=["title",
             "score" ,
             "id" ,

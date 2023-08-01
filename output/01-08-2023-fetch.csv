@@ -6,14 +6,14 @@ We at ZBrain have built a platform to create ChatGPT-like apps with your private
 We have also added AI risk governance to mitigate the confidential data leak and now working on Flow a no-code tool to give you the freedom to create your own business logic.
 
 You can try the tool now at [https://zbrain.ai/](https://zbrain.ai/). We would love to hear your thoughts and feedback to improve the tool."
-1,[D] Disappointing Llama 2 Coding Performance: Are others getting similar results? Are there any other open-source models that approach ChatGPT 3.5's performance?,14,154vlnr,https://www.reddit.com/r/MachineLearning/comments/154vlnr/d_disappointing_llama_2_coding_performance_are/,23,1689870178.0,"I've been excitedly reading the news and discussions about Llama 2 the past couple of days, and got a chance to try it this morning.
+1,[D] Disappointing Llama 2 Coding Performance: Are others getting similar results? Are there any other open-source models that approach ChatGPT 3.5's performance?,15,154vlnr,https://www.reddit.com/r/MachineLearning/comments/154vlnr/d_disappointing_llama_2_coding_performance_are/,23,1689870178.0,"I've been excitedly reading the news and discussions about Llama 2 the past couple of days, and got a chance to try it this morning.
 
 I was underwhelmed by the coding performance (running the 70B model on https://llama2.ai/).  It has consistently failed most of the very-easy prompts that I made up this morning.  I checked each prompt with ChatGPT 3.5, and 3.5 got 100% (which means these prompts are quite easy).  This result was surprising to me based on the discussion and articles I've read.  However, digging into the paper (https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/), the authors are transparent that the coding performance is lacking.
 
 Are my observations consistent with the results others are getting?
 
 I haven't had time to keep up with all the open-source LLMs being worked on by the community; are there any other models that approach even ChatGPT 3.5's coding performance? (Much less GPT 4's performance, which is the real goal.)"
-2,"[R] FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios - Shanghai Jiao Tong University et al 2023 - Plugin for ChatGPT! - Highly improves factfulness in math, code, knowledge and scientific reasoning!",5,15d1l08,https://www.reddit.com/r/MachineLearning/comments/15d1l08/r_factool_factuality_detection_in_generative_ai_a/,0,1690661345.0,"Paper: [https://arxiv.org/abs/2307.13528](https://arxiv.org/abs/2307.13528) 
+2,"[R] FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios - Shanghai Jiao Tong University et al 2023 - Plugin for ChatGPT! - Highly improves factfulness in math, code, knowledge and scientific reasoning!",6,15d1l08,https://www.reddit.com/r/MachineLearning/comments/15d1l08/r_factool_factuality_detection_in_generative_ai_a/,0,1690661345.0,"Paper: [https://arxiv.org/abs/2307.13528](https://arxiv.org/abs/2307.13528) 
 
 Blog: [https://ethanc111.github.io/factool\_website/](https://ethanc111.github.io/factool_website/) 
 
@@ -43,7 +43,7 @@ https://preview.redd.it/3dt0ttfhnyeb1.jpg?width=757&format=pjpg&auto=webp&s=4e15
 &#x200B;
 
 &#x200B;"
-3,[P] Chapyter: ChatGPT Code Interpreter in Jupyter Notebooks,89,15269v8,https://www.reddit.com/r/MachineLearning/comments/15269v8/p_chapyter_chatgpt_code_interpreter_in_jupyter/,14,1689610332.0,"I recently made a new JupyterLab extension called [Chapyter](https://github.com/chapyter/chapyter) (𝐂𝐡𝐚ts in Ju𝐏𝐲𝐭𝐞𝐫) that aims at solving many pain points when using other AI coding assistants. I want to share with y'all the tools as well as my thinkings while building this.
+3,[P] Chapyter: ChatGPT Code Interpreter in Jupyter Notebooks,92,15269v8,https://www.reddit.com/r/MachineLearning/comments/15269v8/p_chapyter_chatgpt_code_interpreter_in_jupyter/,14,1689610332.0,"I recently made a new JupyterLab extension called [Chapyter](https://github.com/chapyter/chapyter) (𝐂𝐡𝐚ts in Ju𝐏𝐲𝐭𝐞𝐫) that aims at solving many pain points when using other AI coding assistants. I want to share with y'all the tools as well as my thinkings while building this.
 
 **What is Chapyter**
 
@@ -94,8 +94,8 @@ I go over the research in [**How Reinforcement Learning from AI Feedback Works**
 https://preview.redd.it/qaivl8f1ljfb1.png?width=1179&format=png&auto=webp&s=a0941f2ce0ccdcf0557cf19b7f4b48fa712a66f2
 
 Let me know what you think, I'm happy to answer any questions!"
-5,[N] Jul 2023 - Recent Instruction/Chat-Based LLMs and their parents (after llama2),32,156hfk1,https://i.redd.it/zcohnyvh2idb1.png,8,1690024684.0,
-6,[N] HuggingFace reported to be reviewing term sheets for a funding round that could raise at least $200M at a valuation of $4B.,171,155f2k0,https://www.reddit.com/r/MachineLearning/comments/155f2k0/n_huggingface_reported_to_be_reviewing_term/,33,1689919178.0,"Link to article: https://www.forbes.com/sites/alexkonrad/2023/07/13/ai-startup-hugging-face-raising-funds-4-billion-valuation/
+5,[N] Jul 2023 - Recent Instruction/Chat-Based LLMs and their parents (after llama2),34,156hfk1,https://i.redd.it/zcohnyvh2idb1.png,8,1690024684.0,
+6,[N] HuggingFace reported to be reviewing term sheets for a funding round that could raise at least $200M at a valuation of $4B.,175,155f2k0,https://www.reddit.com/r/MachineLearning/comments/155f2k0/n_huggingface_reported_to_be_reviewing_term/,33,1689919178.0,"Link to article: https://www.forbes.com/sites/alexkonrad/2023/07/13/ai-startup-hugging-face-raising-funds-4-billion-valuation/
 
 **AI Startup Hugging Face Is Raising Fresh VC Funds At $4 Billion Valuation**
 
@@ -152,7 +152,7 @@ I was underwhelmed by the coding performance (running the 70B model on https://l
 Are my observations consistent with the results others are getting?
 
 I haven't had time to keep up with all the open-source LLMs being worked on by the community; are there any other models that approach even ChatGPT 3.5's coding performance? (Much less GPT 4's performance, which is the real goal.)"
-12,"[R] FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios - Shanghai Jiao Tong University et al 2023 - Plugin for ChatGPT! - Highly improves factfulness in math, code, knowledge and scientific reasoning!",4,15d1l08,https://www.reddit.com/r/MachineLearning/comments/15d1l08/r_factool_factuality_detection_in_generative_ai_a/,0,1690661345.0,"Paper: [https://arxiv.org/abs/2307.13528](https://arxiv.org/abs/2307.13528) 
+12,"[R] FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios - Shanghai Jiao Tong University et al 2023 - Plugin for ChatGPT! - Highly improves factfulness in math, code, knowledge and scientific reasoning!",5,15d1l08,https://www.reddit.com/r/MachineLearning/comments/15d1l08/r_factool_factuality_detection_in_generative_ai_a/,0,1690661345.0,"Paper: [https://arxiv.org/abs/2307.13528](https://arxiv.org/abs/2307.13528) 
 
 Blog: [https://ethanc111.github.io/factool\_website/](https://ethanc111.github.io/factool_website/) 
 
@@ -182,7 +182,7 @@ https://preview.redd.it/3dt0ttfhnyeb1.jpg?width=757&format=pjpg&auto=webp&s=4e15
 &#x200B;
 
 &#x200B;"
-13,[P] Chapyter: ChatGPT Code Interpreter in Jupyter Notebooks,92,15269v8,https://www.reddit.com/r/MachineLearning/comments/15269v8/p_chapyter_chatgpt_code_interpreter_in_jupyter/,14,1689610332.0,"I recently made a new JupyterLab extension called [Chapyter](https://github.com/chapyter/chapyter) (𝐂𝐡𝐚ts in Ju𝐏𝐲𝐭𝐞𝐫) that aims at solving many pain points when using other AI coding assistants. I want to share with y'all the tools as well as my thinkings while building this.
+13,[P] Chapyter: ChatGPT Code Interpreter in Jupyter Notebooks,88,15269v8,https://www.reddit.com/r/MachineLearning/comments/15269v8/p_chapyter_chatgpt_code_interpreter_in_jupyter/,14,1689610332.0,"I recently made a new JupyterLab extension called [Chapyter](https://github.com/chapyter/chapyter) (𝐂𝐡𝐚ts in Ju𝐏𝐲𝐭𝐞𝐫) that aims at solving many pain points when using other AI coding assistants. I want to share with y'all the tools as well as my thinkings while building this.
 
 **What is Chapyter**
 
@@ -233,8 +233,8 @@ I go over the research in [**How Reinforcement Learning from AI Feedback Works**
 https://preview.redd.it/qaivl8f1ljfb1.png?width=1179&format=png&auto=webp&s=a0941f2ce0ccdcf0557cf19b7f4b48fa712a66f2
 
 Let me know what you think, I'm happy to answer any questions!"
-15,[N] Jul 2023 - Recent Instruction/Chat-Based LLMs and their parents (after llama2),31,156hfk1,https://i.redd.it/zcohnyvh2idb1.png,8,1690024684.0,
-16,[N] HuggingFace reported to be reviewing term sheets for a funding round that could raise at least $200M at a valuation of $4B.,173,155f2k0,https://www.reddit.com/r/MachineLearning/comments/155f2k0/n_huggingface_reported_to_be_reviewing_term/,33,1689919178.0,"Link to article: https://www.forbes.com/sites/alexkonrad/2023/07/13/ai-startup-hugging-face-raising-funds-4-billion-valuation/
+15,[N] Jul 2023 - Recent Instruction/Chat-Based LLMs and their parents (after llama2),33,156hfk1,https://i.redd.it/zcohnyvh2idb1.png,8,1690024684.0,
+16,[N] HuggingFace reported to be reviewing term sheets for a funding round that could raise at least $200M at a valuation of $4B.,177,155f2k0,https://www.reddit.com/r/MachineLearning/comments/155f2k0/n_huggingface_reported_to_be_reviewing_term/,33,1689919178.0,"Link to article: https://www.forbes.com/sites/alexkonrad/2023/07/13/ai-startup-hugging-face-raising-funds-4-billion-valuation/
 
 **AI Startup Hugging Face Is Raising Fresh VC Funds At $4 Billion Valuation**
 
@@ -266,7 +266,7 @@ This isn’t my area of expertise so was wondering if some LLM guru might be abl
 I'm really curious to know what the community thinks as I've searched a lot and found a lot of clashes in opinions regarding what models are considered superior over others and the clickbait-ish talks and titles about model so-and-so being ""The ChatGPT Killer"". 
 
 With all this info in consideration, what model(s) do you ACTUALLY use the most? I'd be grateful if you shared your thoughts about this issue and thanks for your time."
-19,[N] Ensuring Reliable Few-Shot Prompt Selection for LLMs,14,153z255,https://www.reddit.com/r/MachineLearning/comments/153z255/n_ensuring_reliable_fewshot_prompt_selection_for/,0,1689782497.0,"Hello Redditors!
+19,[N] Ensuring Reliable Few-Shot Prompt Selection for LLMs,12,153z255,https://www.reddit.com/r/MachineLearning/comments/153z255/n_ensuring_reliable_fewshot_prompt_selection_for/,0,1689782497.0,"Hello Redditors!
 
 It's pretty well known that LLMs have firmly established themselves as leaders in the field of natural language processing, consistently pushing the limits of language comprehension and generation, which is widely acknowledged.
 
@@ -277,21 +277,21 @@ I spent a little time playing around with few-shot prompting for OpenAI's Davinc
 I wrote up a [quick article](https://www.kdnuggets.com/2023/07/ensuring-reliable-fewshot-prompt-selection-llms.html) in KDNuggets that shows how I used data-centric AI to automatically clean the noisy few-shot examples pool in order to achieve more accurate predictions. The resulting few-shot prompt with accurately labeled examples produced **20% fewer errors** than the original one with mislabeled examples.
 
 This one was quite eye-opening for me and I hope you find it is as interesting as I did. Let me know what you think!"
-20,[N] ZBrain - Build ChatGPT like apps with your private data,0,155k423,https://www.reddit.com/r/MachineLearning/comments/155k423/n_zbrain_build_chatgpt_like_apps_with_your/,2,1689935419.0,"Hello Community,
+20,[N] ZBrain - Build ChatGPT like apps with your private data,1,155k423,https://www.reddit.com/r/MachineLearning/comments/155k423/n_zbrain_build_chatgpt_like_apps_with_your/,2,1689935419.0,"Hello Community,
 
 We at ZBrain have built a platform to create ChatGPT-like apps with your private data, you can import your data from multiple sources and DBs and integrate the app into any of your workflows.
 
 We have also added AI risk governance to mitigate the confidential data leak and now working on Flow a no-code tool to give you the freedom to create your own business logic.
 
 You can try the tool now at [https://zbrain.ai/](https://zbrain.ai/). We would love to hear your thoughts and feedback to improve the tool."
-21,[D] Disappointing Llama 2 Coding Performance: Are others getting similar results? Are there any other open-source models that approach ChatGPT 3.5's performance?,15,154vlnr,https://www.reddit.com/r/MachineLearning/comments/154vlnr/d_disappointing_llama_2_coding_performance_are/,23,1689870178.0,"I've been excitedly reading the news and discussions about Llama 2 the past couple of days, and got a chance to try it this morning.
+21,[D] Disappointing Llama 2 Coding Performance: Are others getting similar results? Are there any other open-source models that approach ChatGPT 3.5's performance?,14,154vlnr,https://www.reddit.com/r/MachineLearning/comments/154vlnr/d_disappointing_llama_2_coding_performance_are/,23,1689870178.0,"I've been excitedly reading the news and discussions about Llama 2 the past couple of days, and got a chance to try it this morning.
 
 I was underwhelmed by the coding performance (running the 70B model on https://llama2.ai/).  It has consistently failed most of the very-easy prompts that I made up this morning.  I checked each prompt with ChatGPT 3.5, and 3.5 got 100% (which means these prompts are quite easy).  This result was surprising to me based on the discussion and articles I've read.  However, digging into the paper (https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/), the authors are transparent that the coding performance is lacking.
 
 Are my observations consistent with the results others are getting?
 
 I haven't had time to keep up with all the open-source LLMs being worked on by the community; are there any other models that approach even ChatGPT 3.5's coding performance? (Much less GPT 4's performance, which is the real goal.)"
-22,"[R] FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios - Shanghai Jiao Tong University et al 2023 - Plugin for ChatGPT! - Highly improves factfulness in math, code, knowledge and scientific reasoning!",5,15d1l08,https://www.reddit.com/r/MachineLearning/comments/15d1l08/r_factool_factuality_detection_in_generative_ai_a/,0,1690661345.0,"Paper: [https://arxiv.org/abs/2307.13528](https://arxiv.org/abs/2307.13528) 
+22,"[R] FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios - Shanghai Jiao Tong University et al 2023 - Plugin for ChatGPT! - Highly improves factfulness in math, code, knowledge and scientific reasoning!",4,15d1l08,https://www.reddit.com/r/MachineLearning/comments/15d1l08/r_factool_factuality_detection_in_generative_ai_a/,0,1690661345.0,"Paper: [https://arxiv.org/abs/2307.13528](https://arxiv.org/abs/2307.13528) 
 
 Blog: [https://ethanc111.github.io/factool\_website/](https://ethanc111.github.io/factool_website/) 
 
@@ -400,7 +400,7 @@ I’m using chatgpt to complete tasks for me. The prompt I’m using is really l
 Initially I was looking into fine-tuning but that looks like it’s more to improve the results, not extend the context of the model. I’ve read some stuff about positional interpolation. 
 
 This isn’t my area of expertise so was wondering if some LLM guru might be able to point me in the right direction. Thanks!"
-28,[D] What LLMs do you use the most?,1,154rzvx,https://www.reddit.com/r/MachineLearning/comments/154rzvx/d_what_llms_do_you_use_the_most/,2,1689862209.0,"With the emergence of new models gaining more popularity such as Claude 2, Llama 2 which has the potential for better fine-tuned models, the development of Bard, the controversies surrounding ChatGPT performing worse and with the already-existing content filters that limits the capabilities of models not just subjecting to moral standards and policies that align with human values but also limits it to other factors that may not fall under objective morality or maybe just it being too sensitive, is there a certain model you think is currently the best overall one at least for now other than GPT-4? 
+28,[D] What LLMs do you use the most?,2,154rzvx,https://www.reddit.com/r/MachineLearning/comments/154rzvx/d_what_llms_do_you_use_the_most/,2,1689862209.0,"With the emergence of new models gaining more popularity such as Claude 2, Llama 2 which has the potential for better fine-tuned models, the development of Bard, the controversies surrounding ChatGPT performing worse and with the already-existing content filters that limits the capabilities of models not just subjecting to moral standards and policies that align with human values but also limits it to other factors that may not fall under objective morality or maybe just it being too sensitive, is there a certain model you think is currently the best overall one at least for now other than GPT-4? 
 
 I'm really curious to know what the community thinks as I've searched a lot and found a lot of clashes in opinions regarding what models are considered superior over others and the clickbait-ish talks and titles about model so-and-so being ""The ChatGPT Killer"". 
 
@@ -416,7 +416,7 @@ I spent a little time playing around with few-shot prompting for OpenAI's Davinc
 I wrote up a [quick article](https://www.kdnuggets.com/2023/07/ensuring-reliable-fewshot-prompt-selection-llms.html) in KDNuggets that shows how I used data-centric AI to automatically clean the noisy few-shot examples pool in order to achieve more accurate predictions. The resulting few-shot prompt with accurately labeled examples produced **20% fewer errors** than the original one with mislabeled examples.
 
 This one was quite eye-opening for me and I hope you find it is as interesting as I did. Let me know what you think!"
-30,[N] ZBrain - Build ChatGPT like apps with your private data,2,155k423,https://www.reddit.com/r/MachineLearning/comments/155k423/n_zbrain_build_chatgpt_like_apps_with_your/,2,1689935419.0,"Hello Community,
+30,[N] ZBrain - Build ChatGPT like apps with your private data,1,155k423,https://www.reddit.com/r/MachineLearning/comments/155k423/n_zbrain_build_chatgpt_like_apps_with_your/,2,1689935419.0,"Hello Community,
 
 We at ZBrain have built a platform to create ChatGPT-like apps with your private data, you can import your data from multiple sources and DBs and integrate the app into any of your workflows.
 
@@ -460,7 +460,7 @@ https://preview.redd.it/3dt0ttfhnyeb1.jpg?width=757&format=pjpg&auto=webp&s=4e15
 &#x200B;
 
 &#x200B;"
-33,[P] Chapyter: ChatGPT Code Interpreter in Jupyter Notebooks,91,15269v8,https://www.reddit.com/r/MachineLearning/comments/15269v8/p_chapyter_chatgpt_code_interpreter_in_jupyter/,14,1689610332.0,"I recently made a new JupyterLab extension called [Chapyter](https://github.com/chapyter/chapyter) (𝐂𝐡𝐚ts in Ju𝐏𝐲𝐭𝐞𝐫) that aims at solving many pain points when using other AI coding assistants. I want to share with y'all the tools as well as my thinkings while building this.
+33,[P] Chapyter: ChatGPT Code Interpreter in Jupyter Notebooks,90,15269v8,https://www.reddit.com/r/MachineLearning/comments/15269v8/p_chapyter_chatgpt_code_interpreter_in_jupyter/,14,1689610332.0,"I recently made a new JupyterLab extension called [Chapyter](https://github.com/chapyter/chapyter) (𝐂𝐡𝐚ts in Ju𝐏𝐲𝐭𝐞𝐫) that aims at solving many pain points when using other AI coding assistants. I want to share with y'all the tools as well as my thinkings while building this.
 
 **What is Chapyter**
 
@@ -511,8 +511,8 @@ I go over the research in [**How Reinforcement Learning from AI Feedback Works**
 https://preview.redd.it/qaivl8f1ljfb1.png?width=1179&format=png&auto=webp&s=a0941f2ce0ccdcf0557cf19b7f4b48fa712a66f2
 
 Let me know what you think, I'm happy to answer any questions!"
-35,[N] Jul 2023 - Recent Instruction/Chat-Based LLMs and their parents (after llama2),32,156hfk1,https://i.redd.it/zcohnyvh2idb1.png,8,1690024684.0,
-36,[N] HuggingFace reported to be reviewing term sheets for a funding round that could raise at least $200M at a valuation of $4B.,174,155f2k0,https://www.reddit.com/r/MachineLearning/comments/155f2k0/n_huggingface_reported_to_be_reviewing_term/,33,1689919178.0,"Link to article: https://www.forbes.com/sites/alexkonrad/2023/07/13/ai-startup-hugging-face-raising-funds-4-billion-valuation/
+35,[N] Jul 2023 - Recent Instruction/Chat-Based LLMs and their parents (after llama2),33,156hfk1,https://i.redd.it/zcohnyvh2idb1.png,8,1690024684.0,
+36,[N] HuggingFace reported to be reviewing term sheets for a funding round that could raise at least $200M at a valuation of $4B.,169,155f2k0,https://www.reddit.com/r/MachineLearning/comments/155f2k0/n_huggingface_reported_to_be_reviewing_term/,33,1689919178.0,"Link to article: https://www.forbes.com/sites/alexkonrad/2023/07/13/ai-startup-hugging-face-raising-funds-4-billion-valuation/
 
 **AI Startup Hugging Face Is Raising Fresh VC Funds At $4 Billion Valuation**
 
@@ -544,7 +544,7 @@ This isn’t my area of expertise so was wondering if some LLM guru might be abl
 I'm really curious to know what the community thinks as I've searched a lot and found a lot of clashes in opinions regarding what models are considered superior over others and the clickbait-ish talks and titles about model so-and-so being ""The ChatGPT Killer"". 
 
 With all this info in consideration, what model(s) do you ACTUALLY use the most? I'd be grateful if you shared your thoughts about this issue and thanks for your time."
-39,[N] Ensuring Reliable Few-Shot Prompt Selection for LLMs,13,153z255,https://www.reddit.com/r/MachineLearning/comments/153z255/n_ensuring_reliable_fewshot_prompt_selection_for/,0,1689782497.0,"Hello Redditors!
+39,[N] Ensuring Reliable Few-Shot Prompt Selection for LLMs,10,153z255,https://www.reddit.com/r/MachineLearning/comments/153z255/n_ensuring_reliable_fewshot_prompt_selection_for/,0,1689782497.0,"Hello Redditors!
 
 It's pretty well known that LLMs have firmly established themselves as leaders in the field of natural language processing, consistently pushing the limits of language comprehension and generation, which is widely acknowledged.
 
@@ -556,75 +556,75 @@ I wrote up a [quick article](https://www.kdnuggets.com/2023/07/ensuring-reliable
 
 This one was quite eye-opening for me and I hope you find it is as interesting as I did. Let me know what you think!"
 40,How to use ChatGPT to analyze images through API?,3,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
-41,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,44,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
+41,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,47,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
 42,ChatGPT are you ok?,0,15cu6e0,https://www.reddit.com/gallery/15cu6e0,3,1690642256.0,"So, ChatGPT is getting dumber guys?"
-43,A neat trick to learn new concepts with ChatGPT,73,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
+43,A neat trick to learn new concepts with ChatGPT,77,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
 
 Explain dna and genomics to me with commented code? [https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5](https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5)
 
 Explain liner algebra to me using python code. [https://chat.openai.com/share/34330ccf-46aa-406c-9ec5-ade98f46d167](https://chat.openai.com/share/34330ccf-46aa-406c-9ec5-ade98f46d167)
 
 &#x200B;"
-44,ChatGPT + organic neurons at work,11,15brqfp,https://www.reddit.com/r/OpenAI/comments/15brqfp/chatgpt_organic_neurons_at_work/,2,1690533806.0,"Since  ChatGPT can be inadequate with some questions / topics, I created a  plugin which duplicates all my ChatGPT question into dedicated Reddit  post (in the appropriate sub-reddit) as well as a corresponding post on  StackOverflow (my questions are essentially technical).  It works pretty  well, if I get a stupid answer from ChatGPT I can wait a bit longer and  receive very pertinent answers fetched from the posts and an organic  neurons work.
+44,ChatGPT + organic neurons at work,10,15brqfp,https://www.reddit.com/r/OpenAI/comments/15brqfp/chatgpt_organic_neurons_at_work/,2,1690533806.0,"Since  ChatGPT can be inadequate with some questions / topics, I created a  plugin which duplicates all my ChatGPT question into dedicated Reddit  post (in the appropriate sub-reddit) as well as a corresponding post on  StackOverflow (my questions are essentially technical).  It works pretty  well, if I get a stupid answer from ChatGPT I can wait a bit longer and  receive very pertinent answers fetched from the posts and an organic  neurons work.
 
 It is funny that we  complained about using ChatGPT to answer people on forum, and now it is  ChatGPT that query people to find ready-made answers.
 
 Right now working on a filter to prevent my plugin from scrapping people answers that might not be organic but made in GPT."
-45,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,236,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
+45,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,240,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
 46,"OpenAI’s ChatGPT Plugins feature combined with GPT agents is the new Internet gateway - Web 3.0 (read, write, execute Web) instead of Web 1.0 and 2.0 (search engines and social media)",1,159082m,https://www.reddit.com/r/OpenAI/comments/159082m/openais_chatgpt_plugins_feature_combined_with_gpt/,0,1690267509.0,"The article analyzes how ChatGPT plugins combined with the GPT agents system could be our new internet gateway - and how it will become the real web 3.0 (the execute web) with some examples: [OpenAI’s ChatGPT Plugins feature is the new Internet gateway](https://www.codium.ai/blog/openais-chatgpt-plugins-is-the-new-internet-gateway/)
 
 OpenAI still didn’t declare their GPT agents’ vision, but it exists implicitly in their plugin announcement. And this approach allows us to act on the basis of complex executable-information retrieval, and use plugins are some kind of an app store, but with more advanced functionality."
-47,OpenAI Announces ChatGPT for Android,336,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
-48,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+47,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+48,OpenAI Announces ChatGPT for Android,342,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
 49,I have this issue with logging in Official ChatGPT. Doesn't matter if I use Google account or official OpenAI account. What can I do?,0,15fizen,https://i.redd.it/iyihl2h9ajfb1.jpg,1,1690910905.0,
-50,How to use ChatGPT to analyze images through API?,3,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
-51,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,45,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
+50,How to use ChatGPT to analyze images through API?,5,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
+51,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,46,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
 52,ChatGPT are you ok?,0,15cu6e0,https://www.reddit.com/gallery/15cu6e0,3,1690642256.0,"So, ChatGPT is getting dumber guys?"
-53,A neat trick to learn new concepts with ChatGPT,76,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
+53,A neat trick to learn new concepts with ChatGPT,74,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
 
 Explain dna and genomics to me with commented code? [https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5](https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5)
 
 Explain liner algebra to me using python code. [https://chat.openai.com/share/34330ccf-46aa-406c-9ec5-ade98f46d167](https://chat.openai.com/share/34330ccf-46aa-406c-9ec5-ade98f46d167)
 
 &#x200B;"
-54,ChatGPT + organic neurons at work,10,15brqfp,https://www.reddit.com/r/OpenAI/comments/15brqfp/chatgpt_organic_neurons_at_work/,2,1690533806.0,"Since  ChatGPT can be inadequate with some questions / topics, I created a  plugin which duplicates all my ChatGPT question into dedicated Reddit  post (in the appropriate sub-reddit) as well as a corresponding post on  StackOverflow (my questions are essentially technical).  It works pretty  well, if I get a stupid answer from ChatGPT I can wait a bit longer and  receive very pertinent answers fetched from the posts and an organic  neurons work.
+54,ChatGPT + organic neurons at work,9,15brqfp,https://www.reddit.com/r/OpenAI/comments/15brqfp/chatgpt_organic_neurons_at_work/,2,1690533806.0,"Since  ChatGPT can be inadequate with some questions / topics, I created a  plugin which duplicates all my ChatGPT question into dedicated Reddit  post (in the appropriate sub-reddit) as well as a corresponding post on  StackOverflow (my questions are essentially technical).  It works pretty  well, if I get a stupid answer from ChatGPT I can wait a bit longer and  receive very pertinent answers fetched from the posts and an organic  neurons work.
 
 It is funny that we  complained about using ChatGPT to answer people on forum, and now it is  ChatGPT that query people to find ready-made answers.
 
 Right now working on a filter to prevent my plugin from scrapping people answers that might not be organic but made in GPT."
-55,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,241,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
+55,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,238,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
 56,"OpenAI’s ChatGPT Plugins feature combined with GPT agents is the new Internet gateway - Web 3.0 (read, write, execute Web) instead of Web 1.0 and 2.0 (search engines and social media)",1,159082m,https://www.reddit.com/r/OpenAI/comments/159082m/openais_chatgpt_plugins_feature_combined_with_gpt/,0,1690267509.0,"The article analyzes how ChatGPT plugins combined with the GPT agents system could be our new internet gateway - and how it will become the real web 3.0 (the execute web) with some examples: [OpenAI’s ChatGPT Plugins feature is the new Internet gateway](https://www.codium.ai/blog/openais-chatgpt-plugins-is-the-new-internet-gateway/)
 
 OpenAI still didn’t declare their GPT agents’ vision, but it exists implicitly in their plugin announcement. And this approach allows us to act on the basis of complex executable-information retrieval, and use plugins are some kind of an app store, but with more advanced functionality."
-57,OpenAI Announces ChatGPT for Android,345,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
-58,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+57,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+58,OpenAI Announces ChatGPT for Android,344,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
 59,I have this issue with logging in Official ChatGPT. Doesn't matter if I use Google account or official OpenAI account. What can I do?,0,15fizen,https://i.redd.it/iyihl2h9ajfb1.jpg,1,1690910905.0,
-60,How to use ChatGPT to analyze images through API?,5,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
-61,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,49,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
+60,How to use ChatGPT to analyze images through API?,4,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
+61,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,50,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
 62,ChatGPT are you ok?,0,15cu6e0,https://www.reddit.com/gallery/15cu6e0,3,1690642256.0,"So, ChatGPT is getting dumber guys?"
-63,A neat trick to learn new concepts with ChatGPT,77,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
+63,A neat trick to learn new concepts with ChatGPT,76,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
 
 Explain dna and genomics to me with commented code? [https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5](https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5)
 
 Explain liner algebra to me using python code. [https://chat.openai.com/share/34330ccf-46aa-406c-9ec5-ade98f46d167](https://chat.openai.com/share/34330ccf-46aa-406c-9ec5-ade98f46d167)
 
 &#x200B;"
-64,ChatGPT + organic neurons at work,10,15brqfp,https://www.reddit.com/r/OpenAI/comments/15brqfp/chatgpt_organic_neurons_at_work/,2,1690533806.0,"Since  ChatGPT can be inadequate with some questions / topics, I created a  plugin which duplicates all my ChatGPT question into dedicated Reddit  post (in the appropriate sub-reddit) as well as a corresponding post on  StackOverflow (my questions are essentially technical).  It works pretty  well, if I get a stupid answer from ChatGPT I can wait a bit longer and  receive very pertinent answers fetched from the posts and an organic  neurons work.
+64,ChatGPT + organic neurons at work,9,15brqfp,https://www.reddit.com/r/OpenAI/comments/15brqfp/chatgpt_organic_neurons_at_work/,2,1690533806.0,"Since  ChatGPT can be inadequate with some questions / topics, I created a  plugin which duplicates all my ChatGPT question into dedicated Reddit  post (in the appropriate sub-reddit) as well as a corresponding post on  StackOverflow (my questions are essentially technical).  It works pretty  well, if I get a stupid answer from ChatGPT I can wait a bit longer and  receive very pertinent answers fetched from the posts and an organic  neurons work.
 
 It is funny that we  complained about using ChatGPT to answer people on forum, and now it is  ChatGPT that query people to find ready-made answers.
 
 Right now working on a filter to prevent my plugin from scrapping people answers that might not be organic but made in GPT."
-65,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,238,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
+65,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,239,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
 66,"OpenAI’s ChatGPT Plugins feature combined with GPT agents is the new Internet gateway - Web 3.0 (read, write, execute Web) instead of Web 1.0 and 2.0 (search engines and social media)",1,159082m,https://www.reddit.com/r/OpenAI/comments/159082m/openais_chatgpt_plugins_feature_combined_with_gpt/,0,1690267509.0,"The article analyzes how ChatGPT plugins combined with the GPT agents system could be our new internet gateway - and how it will become the real web 3.0 (the execute web) with some examples: [OpenAI’s ChatGPT Plugins feature is the new Internet gateway](https://www.codium.ai/blog/openais-chatgpt-plugins-is-the-new-internet-gateway/)
 
 OpenAI still didn’t declare their GPT agents’ vision, but it exists implicitly in their plugin announcement. And this approach allows us to act on the basis of complex executable-information retrieval, and use plugins are some kind of an app store, but with more advanced functionality."
-67,OpenAI Announces ChatGPT for Android,345,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
-68,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+67,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+68,OpenAI Announces ChatGPT for Android,345,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
 69,I have this issue with logging in Official ChatGPT. Doesn't matter if I use Google account or official OpenAI account. What can I do?,0,15fizen,https://i.redd.it/iyihl2h9ajfb1.jpg,1,1690910905.0,
-70,How to use ChatGPT to analyze images through API?,2,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
-71,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,46,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
+70,How to use ChatGPT to analyze images through API?,4,15f14p7,https://www.reddit.com/r/OpenAI/comments/15f14p7/how_to_use_chatgpt_to_analyze_images_through_api/,5,1690861160.0,"I'm reading mixed answers about if this is possible, but several people claim ChatGPT can analyze images through the API, but I can't find any documentation for it. Could anyone provide a link or let me know if this is possible at the moment?"
+71,We built a plugin that gives ChatGPT a full cloud environment - it's like code interpreter on steroids,47,15ea1bb,https://youtu.be/kJuJnsatU2s,10,1690791653.0,
 72,ChatGPT are you ok?,0,15cu6e0,https://www.reddit.com/gallery/15cu6e0,3,1690642256.0,"So, ChatGPT is getting dumber guys?"
-73,A neat trick to learn new concepts with ChatGPT,73,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
+73,A neat trick to learn new concepts with ChatGPT,74,15bmnyh,https://www.reddit.com/r/OpenAI/comments/15bmnyh/a_neat_trick_to_learn_new_concepts_with_chatgpt/,21,1690516717.0,"I used GPT4 for this whenever I want to learn something new I ask GPT4 to explain it to me as code since I'm a developer. Makes it so much easier to learn something in a familiar language.
 
 Explain dna and genomics to me with commented code? [https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5](https://chat.openai.com/share/a7a3be67-2578-4a85-8004-a365a3d66cb5)
 
@@ -636,43 +636,43 @@ Explain liner algebra to me using python code. [https://chat.openai.com/share/34
 It is funny that we  complained about using ChatGPT to answer people on forum, and now it is  ChatGPT that query people to find ready-made answers.
 
 Right now working on a filter to prevent my plugin from scrapping people answers that might not be organic but made in GPT."
-75,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,239,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
+75,ChatGPT Organizer (Formerly ChatGPT Folders) - Start organizing your chats,235,159z2cp,https://chrome.google.com/webstore/detail/chatgpt-organizer-chrome/hkabkcpdocmhidhbgfcpbadafacnekkl?hl=en-GB&authuser=1,7,1690357716.0,
 76,"OpenAI’s ChatGPT Plugins feature combined with GPT agents is the new Internet gateway - Web 3.0 (read, write, execute Web) instead of Web 1.0 and 2.0 (search engines and social media)",1,159082m,https://www.reddit.com/r/OpenAI/comments/159082m/openais_chatgpt_plugins_feature_combined_with_gpt/,0,1690267509.0,"The article analyzes how ChatGPT plugins combined with the GPT agents system could be our new internet gateway - and how it will become the real web 3.0 (the execute web) with some examples: [OpenAI’s ChatGPT Plugins feature is the new Internet gateway](https://www.codium.ai/blog/openais-chatgpt-plugins-is-the-new-internet-gateway/)
 
 OpenAI still didn’t declare their GPT agents’ vision, but it exists implicitly in their plugin announcement. And this approach allows us to act on the basis of complex executable-information retrieval, and use plugins are some kind of an app store, but with more advanced functionality."
-77,OpenAI Announces ChatGPT for Android,342,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
-78,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+77,ChatGPT Rickrolled me...,0,1572xs0,https://www.reddit.com/gallery/1572xs0,1,1690080402.0,
+78,OpenAI Announces ChatGPT for Android,346,155yvwh,https://i.redd.it/njs813v2mddb1.png,40,1689970586.0,
 79,I have this issue with logging in Official ChatGPT. Doesn't matter if I use Google account or official OpenAI account. What can I do?,0,15fizen,https://i.redd.it/iyihl2h9ajfb1.jpg,1,1690910905.0,
-80,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,131,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
-81,ChatGPT being too creative with the chat titles lmao,1182,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
-82,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,16,15fb0o5,https://v.redd.it/sbhefs73rhfb1,3,1690892473.0,
-83,Why are people secretive about using chatGPT for programming?,240,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,191,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
+80,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,132,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
+81,ChatGPT being too creative with the chat titles lmao,1190,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
+82,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,18,15fb0o5,https://v.redd.it/sbhefs73rhfb1,4,1690892473.0,
+83,Why are people secretive about using chatGPT for programming?,240,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,192,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
 Or is it just an impression I got?   
 "
-84,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
+84,Submitting PDFs to ChatGPT,5,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
+85,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
 
 https://preview.redd.it/k4kw1pg8oifb1.png?width=2180&format=png&auto=webp&s=3de70ec704a283dd75d584a1378531c5a660268f"
-85,Submitting PDFs to ChatGPT,5,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
-86,ChatGPT has become awful,68,15evbmj,https://www.reddit.com/r/ChatGPT/comments/15evbmj/chatgpt_has_become_awful/,84,1690845366.0,"Listen, I love ChatGPT as much as the next guy but it has definitely become a lot dumber and almost unusable for what I previously used it to for. As a student it has been an incredible tool to help with my studies but I haven’t needed to use ChatGPT in a while as I’ve been on vacation. However, I read some articles this summer stating that ChatGPT was becoming dumber but I didn’t think much of it at the time. I thought that what I used it for would still be simple enough for the AI. If only I knew how wrong I was. 
+86,ChatGPT has become awful,67,15evbmj,https://www.reddit.com/r/ChatGPT/comments/15evbmj/chatgpt_has_become_awful/,84,1690845366.0,"Listen, I love ChatGPT as much as the next guy but it has definitely become a lot dumber and almost unusable for what I previously used it to for. As a student it has been an incredible tool to help with my studies but I haven’t needed to use ChatGPT in a while as I’ve been on vacation. However, I read some articles this summer stating that ChatGPT was becoming dumber but I didn’t think much of it at the time. I thought that what I used it for would still be simple enough for the AI. If only I knew how wrong I was. 
 
 Now that I’ve used it for the first time since late May to ask a few math related questions (questions it definitely could answer with ease earlier) it has actually been astounding how dumb ChatGPT has become and I need to vent. 
 
 Incorrect answers, overcomplicated calculations, insisting and almost gaslighting you when you correct it only to both agree and disagree with itself in the very same message. What the hell is going on? Have humans really made this tool significantly dumber? Is it ever going to be usable again? Am I alone in thinking this?
 
 My vacation is almost over and I think as it stands I wouldn’t use ChatGPT for any kind of calculation at all when I resume my studies. It is kind of sad that a great tool for education has become useless so quick."
-87,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6166,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
-88,Glad to see that ChatGPT has a sense of humor.,674,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+87,Glad to see that ChatGPT has a sense of humor.,675,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+88,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6173,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
 89,"AI-Generated Boomer Comic. (SDXL1.0 Image, ChatGPT generated Dialogue)",3,15fdmit,https://i.redd.it/a423bd1w9ifb1.png,2,1690898798.0,
-90,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,129,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
-91,ChatGPT being too creative with the chat titles lmao,1185,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
-92,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,18,15fb0o5,https://v.redd.it/sbhefs73rhfb1,3,1690892473.0,
-93,Why are people secretive about using chatGPT for programming?,241,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,191,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
+90,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,134,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
+91,ChatGPT being too creative with the chat titles lmao,1184,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
+92,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,17,15fb0o5,https://v.redd.it/sbhefs73rhfb1,4,1690892473.0,
+93,Why are people secretive about using chatGPT for programming?,241,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,192,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
 Or is it just an impression I got?   
 "
-94,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
+94,Submitting PDFs to ChatGPT,5,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
+95,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,3,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
 
 https://preview.redd.it/k4kw1pg8oifb1.png?width=2180&format=png&auto=webp&s=3de70ec704a283dd75d584a1378531c5a660268f"
-95,Submitting PDFs to ChatGPT,6,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
 96,ChatGPT has become awful,67,15evbmj,https://www.reddit.com/r/ChatGPT/comments/15evbmj/chatgpt_has_become_awful/,84,1690845366.0,"Listen, I love ChatGPT as much as the next guy but it has definitely become a lot dumber and almost unusable for what I previously used it to for. As a student it has been an incredible tool to help with my studies but I haven’t needed to use ChatGPT in a while as I’ve been on vacation. However, I read some articles this summer stating that ChatGPT was becoming dumber but I didn’t think much of it at the time. I thought that what I used it for would still be simple enough for the AI. If only I knew how wrong I was. 
 
 Now that I’ve used it for the first time since late May to ask a few math related questions (questions it definitely could answer with ease earlier) it has actually been astounding how dumb ChatGPT has become and I need to vent. 
@@ -680,39 +680,39 @@ Now that I’ve used it for the first time since late May to ask a few math rela
 Incorrect answers, overcomplicated calculations, insisting and almost gaslighting you when you correct it only to both agree and disagree with itself in the very same message. What the hell is going on? Have humans really made this tool significantly dumber? Is it ever going to be usable again? Am I alone in thinking this?
 
 My vacation is almost over and I think as it stands I wouldn’t use ChatGPT for any kind of calculation at all when I resume my studies. It is kind of sad that a great tool for education has become useless so quick."
-97,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6168,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
-98,Glad to see that ChatGPT has a sense of humor.,676,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+97,Glad to see that ChatGPT has a sense of humor.,680,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+98,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6175,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
 99,"AI-Generated Boomer Comic. (SDXL1.0 Image, ChatGPT generated Dialogue)",3,15fdmit,https://i.redd.it/a423bd1w9ifb1.png,2,1690898798.0,
-100,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,133,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
-101,ChatGPT being too creative with the chat titles lmao,1181,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
-102,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,18,15fb0o5,https://v.redd.it/sbhefs73rhfb1,3,1690892473.0,
-103,Why are people secretive about using chatGPT for programming?,240,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,191,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
+100,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,129,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
+101,ChatGPT being too creative with the chat titles lmao,1192,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
+102,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,18,15fb0o5,https://v.redd.it/sbhefs73rhfb1,4,1690892473.0,
+103,Why are people secretive about using chatGPT for programming?,239,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,192,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
 Or is it just an impression I got?   
 "
-104,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
+104,Submitting PDFs to ChatGPT,5,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
+105,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
 
 https://preview.redd.it/k4kw1pg8oifb1.png?width=2180&format=png&auto=webp&s=3de70ec704a283dd75d584a1378531c5a660268f"
-105,Submitting PDFs to ChatGPT,6,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
-106,ChatGPT has become awful,68,15evbmj,https://www.reddit.com/r/ChatGPT/comments/15evbmj/chatgpt_has_become_awful/,84,1690845366.0,"Listen, I love ChatGPT as much as the next guy but it has definitely become a lot dumber and almost unusable for what I previously used it to for. As a student it has been an incredible tool to help with my studies but I haven’t needed to use ChatGPT in a while as I’ve been on vacation. However, I read some articles this summer stating that ChatGPT was becoming dumber but I didn’t think much of it at the time. I thought that what I used it for would still be simple enough for the AI. If only I knew how wrong I was. 
+106,ChatGPT has become awful,65,15evbmj,https://www.reddit.com/r/ChatGPT/comments/15evbmj/chatgpt_has_become_awful/,84,1690845366.0,"Listen, I love ChatGPT as much as the next guy but it has definitely become a lot dumber and almost unusable for what I previously used it to for. As a student it has been an incredible tool to help with my studies but I haven’t needed to use ChatGPT in a while as I’ve been on vacation. However, I read some articles this summer stating that ChatGPT was becoming dumber but I didn’t think much of it at the time. I thought that what I used it for would still be simple enough for the AI. If only I knew how wrong I was. 
 
 Now that I’ve used it for the first time since late May to ask a few math related questions (questions it definitely could answer with ease earlier) it has actually been astounding how dumb ChatGPT has become and I need to vent. 
 
 Incorrect answers, overcomplicated calculations, insisting and almost gaslighting you when you correct it only to both agree and disagree with itself in the very same message. What the hell is going on? Have humans really made this tool significantly dumber? Is it ever going to be usable again? Am I alone in thinking this?
 
 My vacation is almost over and I think as it stands I wouldn’t use ChatGPT for any kind of calculation at all when I resume my studies. It is kind of sad that a great tool for education has become useless so quick."
-107,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6167,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
-108,Glad to see that ChatGPT has a sense of humor.,677,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+107,Glad to see that ChatGPT has a sense of humor.,676,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+108,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6167,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
 109,"AI-Generated Boomer Comic. (SDXL1.0 Image, ChatGPT generated Dialogue)",3,15fdmit,https://i.redd.it/a423bd1w9ifb1.png,2,1690898798.0,
-110,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,130,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
-111,ChatGPT being too creative with the chat titles lmao,1191,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
-112,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,20,15fb0o5,https://v.redd.it/sbhefs73rhfb1,3,1690892473.0,
-113,Why are people secretive about using chatGPT for programming?,243,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,191,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
+110,I lost internet and still wanted to play some Steam games. Googling around didn't work but ChatGPT knew what to do.,129,15faizd,https://www.reddit.com/gallery/15faizd,37,1690891235.0,
+111,ChatGPT being too creative with the chat titles lmao,1189,15ek1bb,https://i.redd.it/otl0e2i5pbfb1.jpg,54,1690819057.0,
+112,You can make a video game in ChatGPT with Web Requests without installing any software or writing a single line of code,18,15fb0o5,https://v.redd.it/sbhefs73rhfb1,4,1690892473.0,
+113,Why are people secretive about using chatGPT for programming?,240,15epng1,https://www.reddit.com/r/ChatGPT/comments/15epng1/why_are_people_secretive_about_using_chatgpt_for/,192,1690831993.0,"Obviously, everyone uses it. It increases productivity, a lot. Usually, with tools which boost productivity you would see developers boasting about them, but with chatGPT, I get the feeling as if they would rather not share whether they used chatGPT, or at least are not as open about it as some IDE extensions or w.e.   
 Or is it just an impression I got?   
 "
-114,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
+114,Submitting PDFs to ChatGPT,6,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
+115,Celebrating My Bro's Birthday with Hilarious ChatGPT Exchange! 😂🎂,4,15ffqi4,https://www.reddit.com/r/ChatGPT/comments/15ffqi4/celebrating_my_bros_birthday_with_hilarious/,1,1690903623.0,"&#x200B;
 
 https://preview.redd.it/k4kw1pg8oifb1.png?width=2180&format=png&auto=webp&s=3de70ec704a283dd75d584a1378531c5a660268f"
-115,Submitting PDFs to ChatGPT,4,15fcmm8,https://www.reddit.com/r/ChatGPT/comments/15fcmm8/submitting_pdfs_to_chatgpt/,2,1690896499.0,I belong to a large fire department that has a ton of information stored in pdf format.  I'd like to take that information and create a chatbot using ChatGPT. So if a firefighter had an EMS question or Firefighting question they could get an answer quickly without having to search through the results of search.  They'd also be able to create quizzes and tests from the information to be better at their jobs.  My question is there an app out there that could help me do this or is this something that would be difficult to do?
 116,ChatGPT has become awful,68,15evbmj,https://www.reddit.com/r/ChatGPT/comments/15evbmj/chatgpt_has_become_awful/,84,1690845366.0,"Listen, I love ChatGPT as much as the next guy but it has definitely become a lot dumber and almost unusable for what I previously used it to for. As a student it has been an incredible tool to help with my studies but I haven’t needed to use ChatGPT in a while as I’ve been on vacation. However, I read some articles this summer stating that ChatGPT was becoming dumber but I didn’t think much of it at the time. I thought that what I used it for would still be simple enough for the AI. If only I knew how wrong I was. 
 
 Now that I’ve used it for the first time since late May to ask a few math related questions (questions it definitely could answer with ease earlier) it has actually been astounding how dumb ChatGPT has become and I need to vent. 
@@ -720,8 +720,8 @@ Now that I’ve used it for the first time since late May to ask a few math rela
 Incorrect answers, overcomplicated calculations, insisting and almost gaslighting you when you correct it only to both agree and disagree with itself in the very same message. What the hell is going on? Have humans really made this tool significantly dumber? Is it ever going to be usable again? Am I alone in thinking this?
 
 My vacation is almost over and I think as it stands I wouldn’t use ChatGPT for any kind of calculation at all when I resume my studies. It is kind of sad that a great tool for education has become useless so quick."
-117,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6164,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
-118,Glad to see that ChatGPT has a sense of humor.,677,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+117,Glad to see that ChatGPT has a sense of humor.,673,15e90yd,https://i.redd.it/uogspxsc59fb1.jpg,21,1690788187.0,
+118,I asked ChatGPT to only reply with one word. But it kinda stopped working after the essay part,6165,15dwkxe,https://i.redd.it/urcwa0vu36fb1.png,529,1690751375.0,
 119,"AI-Generated Boomer Comic. (SDXL1.0 Image, ChatGPT generated Dialogue)",3,15fdmit,https://i.redd.it/a423bd1w9ifb1.png,2,1690898798.0,
 120,Query whole websites with ChatGPT and open-source LLMs - AIxplora,1,15fjyqt,https://www.reddit.com/r/OpenAIDev/comments/15fjyqt/query_whole_websites_with_chatgpt_and_opensource/,0,1690913027.0,"Hi guys,   
 
@@ -736,7 +736,7 @@ Check AIxplora on Github, it's free:
 https://github.com/grumpyp/aixplora"
 121,How To Make a NoCode ChatGPT Bot in 1 Minute!,0,15bu6aq,https://www.youtube.com/watch?v=VT4OVcWX90o,1,1690541880.0,
 122,Unveiling The Sphere Social: Where Ideas Converge — Empowered by OpenAI and ChatGPT!,2,15epn2x,https://medium.com/@augmentedglobal/unveiling-the-sphere-social-where-ideas-converge-empowered-by-openai-and-chatgpt-1eac08118fb,0,1690831971.0,
-123,ChatGPT for Sysadmins,3,14xgjmh,https://www.reddit.com/r/OpenAIDev/comments/14xgjmh/chatgpt_for_sysadmins/,3,1689144610.0,"Hello everyone,
+123,ChatGPT for Sysadmins,4,14xgjmh,https://www.reddit.com/r/OpenAIDev/comments/14xgjmh/chatgpt_for_sysadmins/,3,1689144610.0,"Hello everyone,
 
 I'm thinking about writing a program that will act as a proxy between me and the server. The program would use OpenAI's API to understand commands and questions, generate code, shell commands, and configuration files, and then be able to execute commands and read/write files on the server.
 
@@ -764,7 +764,7 @@ Thank you!"
 i am a solopreneur who codes with the help of chatgpt and came here craving for feedback to make this more useful. 🙏
 
 [here](https://chat.openai.com/share/e5242cbf-7b8d-4c6a-8b46-556db1301c5a) is a shared chat with the plugin activated along with examples of how to use it."
-125,"[ALPHA] Code Interpreter using API (GPT3.5 / GPT4), unleash the beast",7,158cne1,https://www.reddit.com/r/OpenAIDev/comments/158cne1/alpha_code_interpreter_using_api_gpt35_gpt4/,2,1690209769.0,"Love the functionality of OpenAI's code interpreter but wish you had support for additional dependencies or unrestricted file access? My project might just be the perfect solution for you!
+125,"[ALPHA] Code Interpreter using API (GPT3.5 / GPT4), unleash the beast",8,158cne1,https://www.reddit.com/r/OpenAIDev/comments/158cne1/alpha_code_interpreter_using_api_gpt35_gpt4/,2,1690209769.0,"Love the functionality of OpenAI's code interpreter but wish you had support for additional dependencies or unrestricted file access? My project might just be the perfect solution for you!
 
 Behold the independent version of Code Interpreter - customizable to add any language or dependency as per your requirements. Not limited to Python anymore, explore the vivid world of various coding languages.
 
@@ -792,7 +792,7 @@ Here is a preview
 &#x200B;
 
 https://i.redd.it/qh5sv0n9cadb1.gif"
-128,"I created an infographic to better visualize OpenAI's past, current, and upcoming models.",5,1595x66,https://www.reddit.com/gallery/1595x66,2,1690284888.0,
+128,"I created an infographic to better visualize OpenAI's past, current, and upcoming models.",6,1595x66,https://www.reddit.com/gallery/1595x66,2,1690284888.0,
 129,Do You Use ChatGPT to Enhance Your Workflow?,2,14qmy7s,/r/SocialDiscovery30/comments/14qmxsu/do_you_use_chatgpt_to_enhance_your_workflow/,0,1688495261.0,
 130,Query whole websites with ChatGPT and open-source LLMs - AIxplora,1,15fjyqt,https://www.reddit.com/r/OpenAIDev/comments/15fjyqt/query_whole_websites_with_chatgpt_and_opensource/,0,1690913027.0,"Hi guys,   
 
@@ -835,7 +835,7 @@ Thank you!"
 i am a solopreneur who codes with the help of chatgpt and came here craving for feedback to make this more useful. 🙏
 
 [here](https://chat.openai.com/share/e5242cbf-7b8d-4c6a-8b46-556db1301c5a) is a shared chat with the plugin activated along with examples of how to use it."
-135,"[ALPHA] Code Interpreter using API (GPT3.5 / GPT4), unleash the beast",8,158cne1,https://www.reddit.com/r/OpenAIDev/comments/158cne1/alpha_code_interpreter_using_api_gpt35_gpt4/,2,1690209769.0,"Love the functionality of OpenAI's code interpreter but wish you had support for additional dependencies or unrestricted file access? My project might just be the perfect solution for you!
+135,"[ALPHA] Code Interpreter using API (GPT3.5 / GPT4), unleash the beast",9,158cne1,https://www.reddit.com/r/OpenAIDev/comments/158cne1/alpha_code_interpreter_using_api_gpt35_gpt4/,2,1690209769.0,"Love the functionality of OpenAI's code interpreter but wish you had support for additional dependencies or unrestricted file access? My project might just be the perfect solution for you!
 
 Behold the independent version of Code Interpreter - customizable to add any language or dependency as per your requirements. Not limited to Python anymore, explore the vivid world of various coding languages.
 
@@ -863,7 +863,7 @@ Here is a preview
 &#x200B;
 
 https://i.redd.it/qh5sv0n9cadb1.gif"
-138,"I created an infographic to better visualize OpenAI's past, current, and upcoming models.",5,1595x66,https://www.reddit.com/gallery/1595x66,2,1690284888.0,
+138,"I created an infographic to better visualize OpenAI's past, current, and upcoming models.",6,1595x66,https://www.reddit.com/gallery/1595x66,2,1690284888.0,
 139,Do You Use ChatGPT to Enhance Your Workflow?,2,14qmy7s,/r/SocialDiscovery30/comments/14qmxsu/do_you_use_chatgpt_to_enhance_your_workflow/,0,1688495261.0,
 140,Query whole websites with ChatGPT and open-source LLMs - AIxplora,1,15fjyqt,https://www.reddit.com/r/OpenAIDev/comments/15fjyqt/query_whole_websites_with_chatgpt_and_opensource/,0,1690913027.0,"Hi guys,   
 
@@ -878,7 +878,7 @@ Check AIxplora on Github, it's free:
 https://github.com/grumpyp/aixplora"
 141,How To Make a NoCode ChatGPT Bot in 1 Minute!,0,15bu6aq,https://www.youtube.com/watch?v=VT4OVcWX90o,1,1690541880.0,
 142,Unveiling The Sphere Social: Where Ideas Converge — Empowered by OpenAI and ChatGPT!,2,15epn2x,https://medium.com/@augmentedglobal/unveiling-the-sphere-social-where-ideas-converge-empowered-by-openai-and-chatgpt-1eac08118fb,0,1690831971.0,
-143,ChatGPT for Sysadmins,5,14xgjmh,https://www.reddit.com/r/OpenAIDev/comments/14xgjmh/chatgpt_for_sysadmins/,3,1689144610.0,"Hello everyone,
+143,ChatGPT for Sysadmins,4,14xgjmh,https://www.reddit.com/r/OpenAIDev/comments/14xgjmh/chatgpt_for_sysadmins/,3,1689144610.0,"Hello everyone,
 
 I'm thinking about writing a program that will act as a proxy between me and the server. The program would use OpenAI's API to understand commands and questions, generate code, shell commands, and configuration files, and then be able to execute commands and read/write files on the server.
 
@@ -949,7 +949,7 @@ Check AIxplora on Github, it's free:
 https://github.com/grumpyp/aixplora"
 151,How To Make a NoCode ChatGPT Bot in 1 Minute!,0,15bu6aq,https://www.youtube.com/watch?v=VT4OVcWX90o,1,1690541880.0,
 152,Unveiling The Sphere Social: Where Ideas Converge — Empowered by OpenAI and ChatGPT!,2,15epn2x,https://medium.com/@augmentedglobal/unveiling-the-sphere-social-where-ideas-converge-empowered-by-openai-and-chatgpt-1eac08118fb,0,1690831971.0,
-153,ChatGPT for Sysadmins,3,14xgjmh,https://www.reddit.com/r/OpenAIDev/comments/14xgjmh/chatgpt_for_sysadmins/,3,1689144610.0,"Hello everyone,
+153,ChatGPT for Sysadmins,4,14xgjmh,https://www.reddit.com/r/OpenAIDev/comments/14xgjmh/chatgpt_for_sysadmins/,3,1689144610.0,"Hello everyone,
 
 I'm thinking about writing a program that will act as a proxy between me and the server. The program would use OpenAI's API to understand commands and questions, generate code, shell commands, and configuration files, and then be able to execute commands and read/write files on the server.
 
@@ -977,7 +977,7 @@ Thank you!"
 i am a solopreneur who codes with the help of chatgpt and came here craving for feedback to make this more useful. 🙏
 
 [here](https://chat.openai.com/share/e5242cbf-7b8d-4c6a-8b46-556db1301c5a) is a shared chat with the plugin activated along with examples of how to use it."
-155,"[ALPHA] Code Interpreter using API (GPT3.5 / GPT4), unleash the beast",8,158cne1,https://www.reddit.com/r/OpenAIDev/comments/158cne1/alpha_code_interpreter_using_api_gpt35_gpt4/,2,1690209769.0,"Love the functionality of OpenAI's code interpreter but wish you had support for additional dependencies or unrestricted file access? My project might just be the perfect solution for you!
+155,"[ALPHA] Code Interpreter using API (GPT3.5 / GPT4), unleash the beast",7,158cne1,https://www.reddit.com/r/OpenAIDev/comments/158cne1/alpha_code_interpreter_using_api_gpt35_gpt4/,2,1690209769.0,"Love the functionality of OpenAI's code interpreter but wish you had support for additional dependencies or unrestricted file access? My project might just be the perfect solution for you!
 
 Behold the independent version of Code Interpreter - customizable to add any language or dependency as per your requirements. Not limited to Python anymore, explore the vivid world of various coding languages.
 
@@ -1017,9 +1017,9 @@ We at ZBrain have built a platform to create ChatGPT-like apps with your private
 We have also added AI risk governance to mitigate the confidential data leak and now working on Flow a no-code tool to give you the freedom to create your own business logic.
 
 You can try the tool now at [https://zbrain.ai/](https://zbrain.ai/). We would love to hear your thoughts and feedback to improve the tool."
-162,Mysterious Algorithm: backpropagation: chatGPT explained,19,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
+162,Mysterious Algorithm: backpropagation: chatGPT explained,17,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
 163,Best ChatGPT Alternative Platforms (7 Jaw-Dropping ChatGPT Alternatives You MUST See to Believe!),0,155rxo2,https://youtu.be/QvFo9EfdNxQ,0,1689954895.0,
-164,Meta open-sources LLaMA 2 to compete with ChatGPT,41,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
+164,Meta open-sources LLaMA 2 to compete with ChatGPT,40,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
 165,ChatGPT Guide - 5 Prompts To Learn Any Tech Skill,0,1538l6v,https://youtu.be/oA0gLIjlEyI,0,1689710221.0,
 166,Finding a correlation across two .csv files,0,15by4vw,https://www.reddit.com/r/learnmachinelearning/comments/15by4vw/finding_a_correlation_across_two_csv_files/,2,1690552464.0,"Is there a way to create an algorithm that looks at one column in one file, another column in another, and then sees if there's a correlation? This would be in python. I tried multiple ones myself, then tried using chatGPT for it but I couldn't get anything to work. "
 167,Understanding if ML could like me,1,15eq5kq,https://www.reddit.com/r/learnmachinelearning/comments/15eq5kq/understanding_if_ml_could_like_me/,6,1690833158.0,"Hi, I'm an aspiring Python Developer and I'm  attending a high school(Computer science focused) for adults because I lost some years in my adolescence. I really like Software engineering and DSA...
@@ -1052,9 +1052,9 @@ We at ZBrain have built a platform to create ChatGPT-like apps with your private
 We have also added AI risk governance to mitigate the confidential data leak and now working on Flow a no-code tool to give you the freedom to create your own business logic.
 
 You can try the tool now at [https://zbrain.ai/](https://zbrain.ai/). We would love to hear your thoughts and feedback to improve the tool."
-172,Mysterious Algorithm: backpropagation: chatGPT explained,19,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
+172,Mysterious Algorithm: backpropagation: chatGPT explained,17,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
 173,Best ChatGPT Alternative Platforms (7 Jaw-Dropping ChatGPT Alternatives You MUST See to Believe!),0,155rxo2,https://youtu.be/QvFo9EfdNxQ,0,1689954895.0,
-174,Meta open-sources LLaMA 2 to compete with ChatGPT,39,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
+174,Meta open-sources LLaMA 2 to compete with ChatGPT,40,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
 175,ChatGPT Guide - 5 Prompts To Learn Any Tech Skill,0,1538l6v,https://youtu.be/oA0gLIjlEyI,0,1689710221.0,
 176,Finding a correlation across two .csv files,0,15by4vw,https://www.reddit.com/r/learnmachinelearning/comments/15by4vw/finding_a_correlation_across_two_csv_files/,2,1690552464.0,"Is there a way to create an algorithm that looks at one column in one file, another column in another, and then sees if there's a correlation? This would be in python. I tried multiple ones myself, then tried using chatGPT for it but I couldn't get anything to work. "
 177,Understanding if ML could like me,1,15eq5kq,https://www.reddit.com/r/learnmachinelearning/comments/15eq5kq/understanding_if_ml_could_like_me/,6,1690833158.0,"Hi, I'm an aspiring Python Developer and I'm  attending a high school(Computer science focused) for adults because I lost some years in my adolescence. I really like Software engineering and DSA...
@@ -1080,14 +1080,14 @@ I will appreciate any tips or advice on this. Thanks in advance yall."
 180,Legal Litigation Analysis with chatGPT and AI builder,1,15afaa7,https://ubiai.tools/unlocking-legal-litigation-analysis-with-chatgpt/,0,1690399858.0,"
 
 Learn how ChatGPT extracts named entities, generates summaries, and identifies critical facts in legal documents. Plus, explore the user-friendly AI Builder for seamless NLP workflows."
-181,ZBrain- Create custom ChatGPT apps,2,1582nke,https://www.reddit.com/r/learnmachinelearning/comments/1582nke/zbrain_create_custom_chatgpt_apps/,0,1690181179.0,"Hello Community,
+181,ZBrain- Create custom ChatGPT apps,3,1582nke,https://www.reddit.com/r/learnmachinelearning/comments/1582nke/zbrain_create_custom_chatgpt_apps/,0,1690181179.0,"Hello Community,
 
 We at ZBrain have built a platform to create ChatGPT-like apps with your private data, you can import your data from multiple sources and DBs and integrate the app into any of your workflows.
 
 We have also added AI risk governance to mitigate the confidential data leak and now working on Flow a no-code tool to give you the freedom to create your own business logic.
 
 You can try the tool now at [https://zbrain.ai/](https://zbrain.ai/). We would love to hear your thoughts and feedback to improve the tool."
-182,Mysterious Algorithm: backpropagation: chatGPT explained,18,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
+182,Mysterious Algorithm: backpropagation: chatGPT explained,19,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
 183,Best ChatGPT Alternative Platforms (7 Jaw-Dropping ChatGPT Alternatives You MUST See to Believe!),0,155rxo2,https://youtu.be/QvFo9EfdNxQ,0,1689954895.0,
 184,Meta open-sources LLaMA 2 to compete with ChatGPT,39,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
 185,ChatGPT Guide - 5 Prompts To Learn Any Tech Skill,0,1538l6v,https://youtu.be/oA0gLIjlEyI,0,1689710221.0,
@@ -1115,16 +1115,16 @@ I will appreciate any tips or advice on this. Thanks in advance yall."
 190,Legal Litigation Analysis with chatGPT and AI builder,1,15afaa7,https://ubiai.tools/unlocking-legal-litigation-analysis-with-chatgpt/,0,1690399858.0,"
 
 Learn how ChatGPT extracts named entities, generates summaries, and identifies critical facts in legal documents. Plus, explore the user-friendly AI Builder for seamless NLP workflows."
-191,ZBrain- Create custom ChatGPT apps,1,1582nke,https://www.reddit.com/r/learnmachinelearning/comments/1582nke/zbrain_create_custom_chatgpt_apps/,0,1690181179.0,"Hello Community,
+191,ZBrain- Create custom ChatGPT apps,2,1582nke,https://www.reddit.com/r/learnmachinelearning/comments/1582nke/zbrain_create_custom_chatgpt_apps/,0,1690181179.0,"Hello Community,
 
 We at ZBrain have built a platform to create ChatGPT-like apps with your private data, you can import your data from multiple sources and DBs and integrate the app into any of your workflows.
 
 We have also added AI risk governance to mitigate the confidential data leak and now working on Flow a no-code tool to give you the freedom to create your own business logic.
 
 You can try the tool now at [https://zbrain.ai/](https://zbrain.ai/). We would love to hear your thoughts and feedback to improve the tool."
-192,Mysterious Algorithm: backpropagation: chatGPT explained,18,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
+192,Mysterious Algorithm: backpropagation: chatGPT explained,17,156o1ta,https://www.reddit.com/gallery/156o1ta,10,1690042088.0,
 193,Best ChatGPT Alternative Platforms (7 Jaw-Dropping ChatGPT Alternatives You MUST See to Believe!),0,155rxo2,https://youtu.be/QvFo9EfdNxQ,0,1689954895.0,
-194,Meta open-sources LLaMA 2 to compete with ChatGPT,40,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
+194,Meta open-sources LLaMA 2 to compete with ChatGPT,39,153iujc,https://medium.com/p/1370d587b104,3,1689735780.0,
 195,ChatGPT Guide - 5 Prompts To Learn Any Tech Skill,0,1538l6v,https://youtu.be/oA0gLIjlEyI,0,1689710221.0,
 196,Finding a correlation across two .csv files,0,15by4vw,https://www.reddit.com/r/learnmachinelearning/comments/15by4vw/finding_a_correlation_across_two_csv_files/,2,1690552464.0,"Is there a way to create an algorithm that looks at one column in one file, another column in another, and then sees if there's a correlation? This would be in python. I tried multiple ones myself, then tried using chatGPT for it but I couldn't get anything to work. "
 197,Understanding if ML could like me,1,15eq5kq,https://www.reddit.com/r/learnmachinelearning/comments/15eq5kq/understanding_if_ml_could_like_me/,6,1690833158.0,"Hi, I'm an aspiring Python Developer and I'm  attending a high school(Computer science focused) for adults because I lost some years in my adolescence. I really like Software engineering and DSA...

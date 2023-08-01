@@ -6,13 +6,13 @@ from datetime import date
 
 def run(query: list, dirout: str, subreddits=None,sort="top",limit=10):
 
-    client_id = str(os.environ.get('reddit_client_id')) 
-    client_secret = str(os.environ.get('reddit_client_secret')) 
-    user_agent = str(os.environ.get('user_agent'))
+    client_id = "KqVbVrlmGdbowtjuNIMAmQ" 
+    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g" 
+    user_agent = "DailyNews"  ### Same from Secret page
     reddit = praw.Reddit(
-        client_id=client_id, 
-        client_secret=client_secret,  
-        user_agent=user_agent,
+        client_id=client_id,  # my client id
+        client_secret=client_secret,  # your client secret
+        user_agent=user_agent,  # user agent name
     )
 
     if subreddits is None:

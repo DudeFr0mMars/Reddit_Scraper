@@ -1,0 +1,60 @@
+name: Daily Python Script
+permissions:
+  pull-requests: write
+  issues: write
+  repository-projects: write
+  contents: write
+on:
+  workflow_dispatch:
+    inputs:
+
+
+  #push:
+     #branches:
+     #- main
+
+
+  #schedule:
+    #- cron:  '0 0 * * 0'      #### 60mins
+    #- cron:  '0 10 * * *'  ##10:00 UTC everyday
+    #   - cron:  '* * */2 * *'
+
+concurrency:
+  group: ${{ github.ref }}_long
+  cancel-in-progress: true
+
+
+
+  
+jobs:
+  run_script:
+    name: Run Python Script
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8.*  # Replace with your desired Python version
+
+      - name: Install dependencies
+        run: |
+              pip install fire pandas utilmy praw
+
+
+      - name: Run Python script with secrets
+        env:
+          reddit_client_id: ${{ secrets.REDDIT_CLIENT_ID }} 
+          reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
+          user_agent: ${{ secrets.USER_AGENT }}
+        run: |
+              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --dirout "output" --verbose 1
+
+
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Changed files

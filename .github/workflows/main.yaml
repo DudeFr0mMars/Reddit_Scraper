@@ -9,9 +9,9 @@ on:
     inputs:
 
 
-  #push:
-     #branches:
-     - Master
+  push:
+     branches:
+     - main
 
 
   #schedule:

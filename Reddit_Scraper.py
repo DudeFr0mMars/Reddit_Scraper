@@ -50,7 +50,7 @@ def run(query:str, dirout:str, subreddits=None, reddit_limit=10, reddit_sort='to
                      )
 
     if subreddits is None :
-        subreddits = ['AskReddit']
+        subreddits = ['MachineLearning','OpenAI','ChatGPT','OpenAIDev','learnmachinelearning']
         
     if isinstance(query, str):
         query = query.split(",")

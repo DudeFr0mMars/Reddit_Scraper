@@ -1,44 +1,7 @@
-########################################
-#   CREATING DICTIONARY TO STORE THE DATA WHICH WILL BE CONVERTED TO A DATAFRAME
-########################################
-
-#   NOTE: ALL THE POST DATA WILL BE SAVED IN A DIFFERENT
-
-# SCRAPING CAN BE DONE VIA VARIOUS STRATEGIES {HOT,TOP,etc} we will go with keyword strategy i.e using search a keyword
-######################################## 
-#    Use 
-#    pip install fire
-#    pip install praw
-#    python Reddit_Scraper.py --query [list of queries] -output_dir "path to output directory"
-    
-########################################
-
-"""
-
-Fetch secret from here:
-https://www.reddit.com/prefs/apps/
-
-
-pip install praw fire utilmy
-
-
-export reddit_client='i05gtu1-NrbJqCxHFHxW3g'
-export reddit_client_secret='Ak1qkvZdqnAfCCSK7rq9HcyBuaWoTQ'
-export reddit_ua='Bot'
-export reddit_subreddit='MachineLearning,OpenAI,ChatGPT,OpenAIDev,learnmachinelearning'
-
-
-cd utilmy/webscrapper/
-
-python cli_redditnews.py run --query 'icml 2023, neurips 2023'  --dirout ztnp/reddit/
-
-
-
-"""
 import fire, os, praw, pandas as pd
 from datetime import date
 
-def run(query:str, dirout:str, subreddits=None, reddit_limit=10, reddit_sort='top'):
+def run(query:str, dirout:str, subreddits=None, limit : int=10, sort:str='top'):
 
     ### from https://www.reddit.com/prefs/apps/
     client_id     = os.environ.get('reddit_client_id') 
@@ -70,7 +33,7 @@ def run(query:str, dirout:str, subreddits=None, reddit_limit=10, reddit_sort='to
             "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "created" : [], "body" : []
             }
             
-            for submi in subreddit.search(query,sort = reddit_sort,limit = reddit_limit):
+            for submi in subreddit.search(query,sort = sort,limit = limit):
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)

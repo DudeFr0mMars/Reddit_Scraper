@@ -6,9 +6,9 @@ from datetime import date
 
 def run(query: list, dirout: str, subreddits=None):
 
-    client_id = "KqVbVrlmGdbowtjuNIMAmQ"
-    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g"
-    user_agent = "DailyNews"
+    client_id = "..."
+    client_secret = "..."
+    user_agent = "..."
     reddit = praw.Reddit(
         client_id=client_id, 
         client_secret=client_secret,  

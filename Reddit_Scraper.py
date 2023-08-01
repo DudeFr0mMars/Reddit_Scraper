@@ -4,15 +4,15 @@ import praw
 import pandas as pd
 from datetime import date
 
-def run(query: list, dirout: str, subreddits=None):
+def run(query: list, dirout: str, subreddits=None,sort="top",limit=10):
 
-    client_id     = "KqVbVrlmGdbowtjuNIMAmQ" 
-    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g" 
-    user_agent    = "DailyNews"  ### Same from Secret page
+    client_id = os.environ.get('reddit_client_id') 
+    client_secret = os.environ.get('reddit_client_secret') 
+    user_agent = os.environ.get('user_agent') 
     reddit = praw.Reddit(
-        client_id=client_id,  # my client id
-        client_secret=client_secret,  # your client secret
-        user_agent=user_agent,  # user agent name
+        client_id=client_id, 
+        client_secret=client_secret,  
+        user_agent=user_agent,
     )
 
     if subreddits is None:
@@ -24,8 +24,8 @@ def run(query: list, dirout: str, subreddits=None):
             "learnmachinelearning",
         ]
 
-    #ymd = date.today()    
-    #ymd = ymd.strftime("%d/%m/%Y")
+    ymd = date.today()    
+    ymd = ymd.strftime("%d/%m/%Y")
     
     print("########## Start Scraping")
     
@@ -45,7 +45,7 @@ def run(query: list, dirout: str, subreddits=None):
                 "body": [],
              }
             
-            for submi in subreddit.search(query, sort="hot", limit=10):
+            for submi in subreddit.search(query, sort = sort, limit = limit):
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)
@@ -55,9 +55,9 @@ def run(query: list, dirout: str, subreddits=None):
                 ddict["body"].append(submi.selftext)
 
             dfres = pd.DataFrame(ddict)
-            print( f'{item}: N article: ', len(dfres))
-            dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
-    filename = "fetch.csv"
+            print( f"{item}: N article: ", len(dfres))
+            dfall = pd.concat([dfall,dfres], axis = 0, ignore_index = True)
+    filename = ymd + "-fetch.csv"
     path = os.path.join(dirout,filename)
     dfall.to_csv(path)
     return

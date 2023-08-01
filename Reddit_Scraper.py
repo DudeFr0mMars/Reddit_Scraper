@@ -4,15 +4,15 @@ import praw
 import pandas as pd
 from datetime import date
 
-def run(query: list, dirout: str, subreddits=None,sort="top",limit=10):
+def run(query: list, dirout: str, subreddits=None):
 
-    client_id = "KqVbVrlmGdbowtjuNIMAmQ" 
-    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g" 
-    user_agent = "DailyNews"  ### Same from Secret page
+    client_id = "KqVbVrlmGdbowtjuNIMAmQ"
+    client_secret = "XN4XRE7_pOw9rzreelTFYogmBTWW_g"
+    user_agent = "DailyNews"
     reddit = praw.Reddit(
-        client_id=client_id,  # my client id
-        client_secret=client_secret,  # your client secret
-        user_agent=user_agent,  # user agent name
+        client_id=client_id, 
+        client_secret=client_secret,  
+        user_agent=user_agent,
     )
 
     if subreddits is None:
@@ -45,7 +45,7 @@ def run(query: list, dirout: str, subreddits=None,sort="top",limit=10):
                 "body": [],
              }
             
-            for submi in subreddit.search(query, sort = sort, limit = limit):
+            for submi in subreddit.search(query, sort = "hot", limit = 10):
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)

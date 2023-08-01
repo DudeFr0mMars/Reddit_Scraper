@@ -52,7 +52,7 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python Reddit_Scraper.py --query ['ICML','NeurIPS','OpenAI','ChatGPT'] --dirout "output" $reddit_client_id $reddit_client_secret $user_agent
+              python Reddit_Scraper.py --query ['ICML','NeurIPS','OpenAI','ChatGPT'] --dirout "output" 
 
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4

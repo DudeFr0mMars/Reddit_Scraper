@@ -80,7 +80,7 @@ def run(query:str, dirout:str, subreddits=None, reddit_limit=10, reddit_sort='to
                 ddict["body"].append(submi.selftext)
 
             dfres = pd.DataFrame(ddict)
-            log( f'{item}: N article: ', len(dfres))
+            print( f'{item}: N article: ', len(dfres))
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
     filename = ymd + "-fetch.csv"
     path = os.path.join(dirout,filename)

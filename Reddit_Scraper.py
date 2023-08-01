@@ -56,7 +56,7 @@ def run(query:str, dirout:str, subreddits=None, reddit_limit=10, reddit_sort='to
         query = query.split(",")
 
     ymd = date.today()    
-    ymd = today.strftime("%d/%m/%Y")
+    ymd = ymd.strftime("%d/%m/%Y")
     
     print("########## Start Scrapping")
     
@@ -82,8 +82,9 @@ def run(query:str, dirout:str, subreddits=None, reddit_limit=10, reddit_sort='to
             dfres = pd.DataFrame(ddict)
             log( f'{item}: N article: ', len(dfres))
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
-
-    df.to_csv(os.path.join(dirout,"subreddit.csv"))
+    filename = ymd + "-fetch.csv"
+    path = os.path.join(dirout,filename)
+    df.to_csv(path)
     return
 
 if __name__ == "__main__":
